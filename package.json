@@ -1,0 +1,17 @@
+{
+  "name": "pw2-mongodb",
+  "version": "1.0.0",
+  "description": "mongodb - utn2023",
+  "main": "./server/index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node ./server/index.js",
+    "client": "node ./client/client.js"
+  },
+  "keywords": [],
+  "author": "davidchamorro",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
