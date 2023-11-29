@@ -14,7 +14,6 @@ clientTCP.on("connect", () => {
     const args = process.argv.splice(2);
 
     clientTCP.write(JSON.stringify(args));
-
-    
+     
     clientTCP.end();
 });
